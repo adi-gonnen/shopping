@@ -1,0 +1,30 @@
+// reset
+* {
+    box-sizing: border-box;
+}
+p,ul,li,a, button, input {
+    margin: 0;
+    padding: 0
+}
+ul {
+    list-style-type: none;
+}
+.row {
+    display: flex;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+input {
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
